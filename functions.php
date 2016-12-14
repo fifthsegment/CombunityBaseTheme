@@ -17,7 +17,26 @@ if (!isset($content_width))
 ////////////////////////////////////////////////
 include_once("includes/plain-walker.php");
 include_once("includes/walker.php");
+
 ////////////////////////////////////////////////
+
+
+if ( is_admin() ){
+    require 'theme-updates/theme-update-checker.php';
+
+    function wsh_filter_update_checks($queryArgs) {
+        return $queryArgs;
+    }
+    
+    $updateChecker = new ThemeUpdateChecker(
+        'combunity-forum-ashes',
+        'https://raw.githubusercontent.com/fifthsegment/CombunityBaseTheme/master/updates.json'
+    );
+    $updateChecker->addQueryArgFilter('wsh_filter_update_checks');
+    $updateChecker->checkForUpdates();
+}
+
+
 
 
 register_sidebar( array(
