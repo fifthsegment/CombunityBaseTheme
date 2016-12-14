@@ -1,0 +1,1582 @@
+/*
+ Theme Name:     Combunity Forum Theme Ashes
+ Description:    A Combunity theme for building simple yet powerful Forums on Wordpress using Combunity Framework.
+ Author:         Combunity
+ Author URI:     http://www.combunity.com
+ Version:        2.0.0
+ Details URI: http://combunity.com/themes/combunity-forums/assets/changelog.html
+*/
+
+/*
+Bootstrap modifications
+
+*/
+
+@import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+/*@import url("assets/bootstrapcustom/bootstrap.min.css");*/
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*!
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=adb905cc1dfe38c389a29de4af2fc7fb)
+ * Config saved to config.json and https://gist.github.com/adb905cc1dfe38c389a29de4af2fc7fb
+ *//*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}figure{margin:0}img{vertical-align:middle}.img-responsive{display:block;max-width:100%;height:auto}.img-rounded{border-radius:6px}.img-thumbnail{padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}.img-circle{border-radius:50%}hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}[role="button"]{cursor:pointer}.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}.row{margin-left:-15px;margin-right:-15px}.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{float:left}.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}.col-xs-pull-12{right:100%}.col-xs-pull-11{right:91.66666667%}.col-xs-pull-10{right:83.33333333%}.col-xs-pull-9{right:75%}.col-xs-pull-8{right:66.66666667%}.col-xs-pull-7{right:58.33333333%}.col-xs-pull-6{right:50%}.col-xs-pull-5{right:41.66666667%}.col-xs-pull-4{right:33.33333333%}.col-xs-pull-3{right:25%}.col-xs-pull-2{right:16.66666667%}.col-xs-pull-1{right:8.33333333%}.col-xs-pull-0{right:auto}.col-xs-push-12{left:100%}.col-xs-push-11{left:91.66666667%}.col-xs-push-10{left:83.33333333%}.col-xs-push-9{left:75%}.col-xs-push-8{left:66.66666667%}.col-xs-push-7{left:58.33333333%}.col-xs-push-6{left:50%}.col-xs-push-5{left:41.66666667%}.col-xs-push-4{left:33.33333333%}.col-xs-push-3{left:25%}.col-xs-push-2{left:16.66666667%}.col-xs-push-1{left:8.33333333%}.col-xs-push-0{left:auto}.col-xs-offset-12{margin-left:100%}.col-xs-offset-11{margin-left:91.66666667%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-0{margin-left:0}@media (min-width:768px){.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{float:left}.col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}.col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-2{width:16.66666667%}.col-sm-1{width:8.33333333%}.col-sm-pull-12{right:100%}.col-sm-pull-11{right:91.66666667%}.col-sm-pull-10{right:83.33333333%}.col-sm-pull-9{right:75%}.col-sm-pull-8{right:66.66666667%}.col-sm-pull-7{right:58.33333333%}.col-sm-pull-6{right:50%}.col-sm-pull-5{right:41.66666667%}.col-sm-pull-4{right:33.33333333%}.col-sm-pull-3{right:25%}.col-sm-pull-2{right:16.66666667%}.col-sm-pull-1{right:8.33333333%}.col-sm-pull-0{right:auto}.col-sm-push-12{left:100%}.col-sm-push-11{left:91.66666667%}.col-sm-push-10{left:83.33333333%}.col-sm-push-9{left:75%}.col-sm-push-8{left:66.66666667%}.col-sm-push-7{left:58.33333333%}.col-sm-push-6{left:50%}.col-sm-push-5{left:41.66666667%}.col-sm-push-4{left:33.33333333%}.col-sm-push-3{left:25%}.col-sm-push-2{left:16.66666667%}.col-sm-push-1{left:8.33333333%}.col-sm-push-0{left:auto}.col-sm-offset-12{margin-left:100%}.col-sm-offset-11{margin-left:91.66666667%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-0{margin-left:0}}@media (min-width:992px){.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}.col-md-pull-12{right:100%}.col-md-pull-11{right:91.66666667%}.col-md-pull-10{right:83.33333333%}.col-md-pull-9{right:75%}.col-md-pull-8{right:66.66666667%}.col-md-pull-7{right:58.33333333%}.col-md-pull-6{right:50%}.col-md-pull-5{right:41.66666667%}.col-md-pull-4{right:33.33333333%}.col-md-pull-3{right:25%}.col-md-pull-2{right:16.66666667%}.col-md-pull-1{right:8.33333333%}.col-md-pull-0{right:auto}.col-md-push-12{left:100%}.col-md-push-11{left:91.66666667%}.col-md-push-10{left:83.33333333%}.col-md-push-9{left:75%}.col-md-push-8{left:66.66666667%}.col-md-push-7{left:58.33333333%}.col-md-push-6{left:50%}.col-md-push-5{left:41.66666667%}.col-md-push-4{left:33.33333333%}.col-md-push-3{left:25%}.col-md-push-2{left:16.66666667%}.col-md-push-1{left:8.33333333%}.col-md-push-0{left:auto}.col-md-offset-12{margin-left:100%}.col-md-offset-11{margin-left:91.66666667%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-9{margin-left:75%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-6{margin-left:50%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-0{margin-left:0}}@media (min-width:1200px){.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{float:left}.col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}.col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}.col-lg-pull-12{right:100%}.col-lg-pull-11{right:91.66666667%}.col-lg-pull-10{right:83.33333333%}.col-lg-pull-9{right:75%}.col-lg-pull-8{right:66.66666667%}.col-lg-pull-7{right:58.33333333%}.col-lg-pull-6{right:50%}.col-lg-pull-5{right:41.66666667%}.col-lg-pull-4{right:33.33333333%}.col-lg-pull-3{right:25%}.col-lg-pull-2{right:16.66666667%}.col-lg-pull-1{right:8.33333333%}.col-lg-pull-0{right:auto}.col-lg-push-12{left:100%}.col-lg-push-11{left:91.66666667%}.col-lg-push-10{left:83.33333333%}.col-lg-push-9{left:75%}.col-lg-push-8{left:66.66666667%}.col-lg-push-7{left:58.33333333%}.col-lg-push-6{left:50%}.col-lg-push-5{left:41.66666667%}.col-lg-push-4{left:33.33333333%}.col-lg-push-3{left:25%}.col-lg-push-2{left:16.66666667%}.col-lg-push-1{left:8.33333333%}.col-lg-push-0{left:auto}.col-lg-offset-12{margin-left:100%}.col-lg-offset-11{margin-left:91.66666667%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-0{margin-left:0}}.clearfix:before,.clearfix:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after,.row:before,.row:after{content:" ";display:table}.clearfix:after,.container:after,.container-fluid:after,.row:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right !important}.pull-left{float:left !important}.hide{display:none !important}.show{display:block !important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none !important}.affix{position:fixed}@-ms-viewport{width:device-width}.visible-xs,.visible-sm,.visible-md,.visible-lg{display:none !important}.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block{display:none !important}@media (max-width:767px){.visible-xs{display:block !important}table.visible-xs{display:table !important}tr.visible-xs{display:table-row !important}th.visible-xs,td.visible-xs{display:table-cell !important}}@media (max-width:767px){.visible-xs-block{display:block !important}}@media (max-width:767px){.visible-xs-inline{display:inline !important}}@media (max-width:767px){.visible-xs-inline-block{display:inline-block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm{display:block !important}table.visible-sm{display:table !important}tr.visible-sm{display:table-row !important}th.visible-sm,td.visible-sm{display:table-cell !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-block{display:block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline{display:inline !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline-block{display:inline-block !important}}@media (min-width:992px) and (max-width:1199px){.visible-md{display:block !important}table.visible-md{display:table !important}tr.visible-md{display:table-row !important}th.visible-md,td.visible-md{display:table-cell !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-block{display:block !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline{display:inline !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline-block{display:inline-block !important}}@media (min-width:1200px){.visible-lg{display:block !important}table.visible-lg{display:table !important}tr.visible-lg{display:table-row !important}th.visible-lg,td.visible-lg{display:table-cell !important}}@media (min-width:1200px){.visible-lg-block{display:block !important}}@media (min-width:1200px){.visible-lg-inline{display:inline !important}}@media (min-width:1200px){.visible-lg-inline-block{display:inline-block !important}}@media (max-width:767px){.hidden-xs{display:none !important}}@media (min-width:768px) and (max-width:991px){.hidden-sm{display:none !important}}@media (min-width:992px) and (max-width:1199px){.hidden-md{display:none !important}}@media (min-width:1200px){.hidden-lg{display:none !important}}.visible-print{display:none !important}@media print{.visible-print{display:block !important}table.visible-print{display:table !important}tr.visible-print{display:table-row !important}th.visible-print,td.visible-print{display:table-cell !important}}.visible-print-block{display:none !important}@media print{.visible-print-block{display:block !important}}.visible-print-inline{display:none !important}@media print{.visible-print-inline{display:inline !important}}.visible-print-inline-block{display:none !important}@media print{.visible-print-inline-block{display:inline-block !important}}@media print{.hidden-print{display:none !important}}
+/*@import url("base/primary.css");*/
+/* vietnamese */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNOAHFN6BivSraYkjhveRHY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlC2Q8seG17bfDXYR_jUsrzg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+.menu-dropdown.menu-has-items .menu-top-level,.menu-label,.menu-top-label{cursor:pointer}.menu-contents,.menu-dropdown,.menu-top-level,.search{position:relative}body,button,html,input{font-family:"Source Sans Pro","Helvetica Neue",Helvetica,sans-serif}div,h1,h2,h3,h4,h5,li,ol,p,pre,ul{line-height:1.5}h1{font-size:40px}h2{font-size:30px}h3{font-size:20px}h4{font-size:16px}.menu-contents{top:-10px;right:-10px}.important{color:red}.account-link,.btn-primary:active,.btn-primary:hover,.btn-primary:link,.btn-primary:visited,.logo-div a,.menu-top-level,a:hover{color:#fff}.menu-top-level{top:3px}.dark-bg{background-color:#4e555d}.header-row{padding-top:16px}.btn,.button,button,input[type=submit]{-webkit-appearance:none;border-radius:3px;text-align:center;display:block;max-width:300px;padding:10px 12px;line-height:1;border:none;font-size:15px;cursor:pointer;margin:0;color:#fff;font-weight:400}.btn-primary{background:#DD3416}.post-btn-container{padding-left:10%;padding-right:10%}.account-link-sign-up{margin-right:10%}input{color:#4a4444;line-height:1.6}.search .search-field{color:#444;font-size:14px;padding:4px 12px;line-height:1.3;border-radius:20px;border:0;width:100%;max-width:250px;-webkit-transition:.2s all;transition:.2s all;-webkit-appearance:textfield;background:#fff}.white-bg .search .search-field{border:1px solid #ddd}.search .search-field:focus{outline:0;background:#fff}.search .search-field::-webkit-input-placeholder{color:currentColor}.search .search-field::-moz-placeholder{color:currentColor}.search.empty .search-field{max-width:260px;background:rgba(255,255,255,.1);color:rgba(255,255,255,.6)}.search.empty .search-field:focus{background:#fff;max-width:250px;color:#aaa}.primary-nav{padding-left:15px}.menu-item{margin:10px 0}.menu-item a{font-size:14px}.menu-item:first-child{margin-top:0}.menu-item:last-child{margin-bottom:0}.menu-items-toggle{display:none}.menu-label{display:block;font-weight:700}.menu-description{display:block;font-weight:400;font-size:12px;margin-top:2px;color:#a4a9ab}.item-admin .menu-label:after{content:"[A]";font-size:10px;color:#DD3416;display:inline-block;margin-left:3px}.dark-bg .item-active,.medium-dark-bg .item-active{background:rgba(255,255,255,.1)}.light-bg .item-active,.medium-light-bg .item-active,white-bg .item-active{background:rgba(0,0,0,.1)}.item-active.item-never-active{background:0 0}.menu-child-items,.menu-collapsible .menu-wrapper{padding-left:10px;border-left:5px solid rgba(0,0,0,.1);margin:10px 0 10px 6px}.dark-bg .menu-child-items,.dark-bg .menu-collapsible .menu-wrapper,.medium-dark-bg .menu-child-items,.medium-dark-bg .menu-collapsible .menu-wrapper{border-color:rgba(255,255,255,.1)}.light-bg .menu-child-items,.light-bg .menu-collapsible .menu-wrapper,.menu-dropdown .menu-child-items,.menu-dropdown .menu-collapsible .menu-wrapper{border-color:rgba(0,0,0,.1)}.menu-no-items .menu-top-level-link{pointer-events:none}.menu-list .show-more,.menu-no-items .menu-top-level-link .menu-items-toggle{display:none}.menu-list .item-active{background:rgba(0,0,0,.05)}.menu-dropdown{text-align:left}.menu-dropdown.menu-has-items .menu-top-level .menu-top-level-link{font-weight:400}.menu-dropdown.menu-has-items:hover .menu-wrapper{display:block}.menu-dropdown .menu-wrapper{display:none;top:10px;left:10px;position:absolute;padding-top:20px;z-index:10000}.menu-dropdown .menu-wrapper,.menu-dropdown .menu-wrapper a,.menu-dropdown .menu-wrapper a:link,.menu-dropdown .menu-wrapper a:visited{color:#444}.menu-dropdown .menu-wrapper a.button,.menu-top-level-label{color:#fff}.menu-dropdown .menu-wrapper .menu-contents{background:#fff;padding:10px;overflow:hidden;min-width:180px;border-radius:3px;box-shadow:0 1px 3px rgba(0,0,0,.35);list-style-type:none}.menu-dropdown .show-more{display:none}.menu-collapsible .menu-top-level-link{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}.menu-collapsible .menu-top-level-link>span{display:block}.menu-collapsible .menu-wrapper{display:none}.menu-collapsible .menu-item-wrapper{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}.menu-collapsible .icon-expand,.menu-collapsible .menu-sub-level{display:block}.menu-collapsible .menu-items-toggle{display:block;border-radius:100%;border:1px solid rgba(255,255,255,.3)}.menu-collapsible .menu-items-toggle:hover{background:rgba(255,255,255,.1)}.menu-collapsible .icon-collapse,.menu-collapsible .menu-child-items{display:none}.menu-expanded .menu-wrapper{display:block}.menu-expanded>.menu-item-wrapper .icon-expand,.menu-expanded>.menu-top-level .icon-expand{display:none}.menu-expanded>.menu-child-items,.menu-expanded>.menu-item-wrapper .icon-collapse,.menu-expanded>.menu-top-level .icon-collapse{display:block}.menu-always-expanded .menu-wrapper{display:block;padding-left:0;border:none}.menu-always-expanded .menu-top-level-link .menu-items-toggle{display:none}
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+#loginmodal,#submitpostform {
+    top:10%;
+    /*width: 600px;*/
+    padding: 30px; 
+    display:none;
+    background: #FFF;
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);
+}
+
+#loginmodal p { color: #666; text-shadow: none; }
+.account-link,
+.site-content a,
+.user-box {
+    color: #fff
+}
+
+.combunity-single-post,
+.post-body {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15)
+}
+
+.tag,
+.tag-user-page {
+    text-transform: uppercase
+}
+
+.combunity-forum-tag,
+.tag,
+.tag-user-page {
+    vertical-align: middle;
+    font-weight: 700
+}
+
+.bold-font,
+.combunity-forum-tag,
+.combunity-pagination-btn-default,
+.combunity-post-postoptions-option a,
+.comment-post-form label,
+.logo-div a,
+.posts-post-author,
+.tag,
+.tag a,
+.tag-user-page,
+.tag-user-page a {
+    font-weight: 700
+}
+
+.all-posts-loading-indicator,
+.combunity-forum-categories,
+.combunity-forum-post-ul,
+.combunity-forum-sidebar,
+.combunity-forum-social-buttons,
+.combunity-post-last,
+.combunity-widget,
+.mobile-menu-container ul,
+.top-section ul,
+.top-section-general ul {
+    list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0
+}
+
+.spacer {
+    width: 100%;
+    height: 60px
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 1000
+}
+
+.logo-div a img {
+    max-height: 40px
+}
+
+.account-link-pref,
+.account-link-username {
+    margin-right: 7px
+}
+
+.combunity-body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+    z-index: 2;
+    background-color: #fff
+}
+
+.mobile-menu-container {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    max-width: 300px;
+    background: #444
+}
+
+.mobile-menu i,
+.mobile-menu-close-btn {
+    cursor: pointer;
+    background-color: #DD3416;
+    border-radius: 3px;
+    color: #fff
+}
+
+.mobile-menu i {
+    margin-left: 15px;
+    padding: 5px
+}
+
+.mobile-menu-close-btn {
+    margin: 10px;
+    position: absolute;
+    padding: 2px 5px;
+    right: 0;
+    z-index: 10
+}
+
+.logo-div a,
+.post-btn,
+.tag {
+    position: relative
+}
+
+.site-content,
+body {
+    background-color: #EEE
+}
+
+.mobile-menu-container ul {
+    position: relative;
+    top: 0;
+    padding-left: 0
+}
+
+.mobile-menu-container ul li {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px rgba(255, 255, 255, .2) solid;
+    margin: 0
+}
+
+.mobile-menu-container li a {
+    color: #fff
+}
+
+.padding-top-desktop {
+    padding-top: 2px
+}
+
+.header {
+    height: 60px!important
+}
+
+.mobile-menu-container {
+    display: none;
+    width: 100%
+}
+
+.logo-div a {
+    font-size: 25px;
+    top: -5px
+}
+
+.text-right {
+    text-align: right
+}
+
+.combunity-pagination-container,
+.text-center {
+    text-align: center
+}
+
+a:hover {
+    text-decoration: none;
+    color: #DD3416
+}
+
+a {
+    color: #524444
+}
+
+.post-btn {
+    top: -3px
+}
+
+.site-content {
+    color: #4a4444;
+    min-height: 500px
+}
+
+ul {
+    padding: 0;
+    margin: 0
+}
+
+.combunity-posts {
+    margin-top: 15px
+}
+
+.combunity-post,
+.combunity-post-last {
+    margin: 0 0 10px;
+    padding-left: 15px
+}
+
+.all-posts .first {
+    border-radius: 3px 3px 0 0
+}
+
+.combunity-post-outer-li,
+.post-body,
+.tag {
+    border-radius: 3px
+}
+
+.combunity-post {
+    background-color: #fff;
+    border-bottom: 1px solid #eee
+}
+
+.combunity-comments-container-header,
+.comment-post-form,
+.listing,
+.post-body {
+    margin-top: 20px
+}
+
+.combunity-post-first-column {
+    padding: 10px 0 0
+}
+
+.combunity-post-second-column {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.combunity-post-last-column {
+    padding-top: 10px
+}
+
+.combunity-latest-posts-box {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee
+}
+
+.combunity-single-post {
+    margin-top: 20px;
+    border-radius: 3px
+}
+
+.post-body {
+    background-color: #fff;
+    padding: 20px;
+    overflow: hidden
+}
+
+.combunity-post-title {
+    font-size: 18px
+}
+
+.tag {
+    display: inline-block;
+    font-size: 12px;
+    background: #eee;
+    padding: 1px 5px 2px;
+    top: 0
+}
+
+.tag:hover{
+    border: 1px solid gray;
+}
+
+.combunity-post-postoptions-option a {
+    font-size: 13px;
+    color: #a4a9ab;
+    line-height: 1.5
+}
+
+.post-comments-container {
+    position: absolute;
+    right: 30px
+}
+
+.post-comments {
+    position: relative
+}
+
+.post-author-box {
+    font-size: 10px
+}
+
+.post-comments i,
+.post-comments span {
+    color: #B3C1C6
+}
+
+.icon-adjust-size {
+    font-size: 1.3em
+}
+
+.icon-adjust-size-small {
+    font-size: .55em
+}
+
+.icon-comment-text {
+    font-size: .5em;
+    position: relative;
+    right: 22px;
+    top: -2px
+}
+
+.posts-post-author {
+    color: #a4a9ab
+}
+
+.combunity-post-last {
+    background-color: #E0E0E0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0 0 3px 3px
+}
+
+.combunity-post-last-subspage {
+    background: rgba(255, 255, 255, .6);
+    padding-bottom: 20px;
+    border-radius: 0 0 3px 3px
+}
+
+.combunity-pagination-btn-default {
+    font-size: 18px
+}
+
+.combunity-vote-count {
+    padding-top: 3px;
+    padding-bottom: 3px
+}
+
+.top-section {
+    padding: 15px 15px 35px;
+    background: rgba(255, 255, 255, .6);
+    border-radius: 3px
+}
+
+.top-section-sub,
+.top-section-sub-nospace {
+    padding-bottom: 15px;
+    font-size: 20px;
+    background: rgba(255, 255, 255, .6)
+}
+
+.top-section-general {
+    padding: 15px;
+    background: rgba(255, 255, 255, .6);
+    border-radius: 3px
+}
+
+.top-section-sub {
+    margin-bottom: 20px
+}
+
+.comment-respond,
+.comment-voting-bar,
+.listing {
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15)
+}
+
+.top-section ul li,
+.top-section-general ul li {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700
+}
+
+#comment,
+.author-info span,
+.combunity-comment-author {
+    font-size: 14px
+}
+
+.sub_sort_links li {
+    margin-right: 10px
+}
+
+.listing {
+    border-radius: 3px;
+    padding: 10px 0 10px 10px
+}
+
+#fseg_respond {
+    padding: 0
+}
+
+.comment-respond {
+    border-radius: 3px;
+    padding: 10px
+}
+
+.combunity-comment-box {
+    border-radius: 0 3px 3px;
+    background: #fff;
+    padding: 15px;
+    margin-top: 5px;
+    margin-left: 30px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+    position: relative;
+    display: block
+}
+
+.comment-voting-bar {
+    left: -30px;
+    top: 0;
+    position: absolute;
+    width: 30px;
+    height: 37px;
+    border-radius: 3px 0 0 3px
+}
+
+#comment {
+    display: block;
+    padding: 5px 6px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #b5b0b0
+}
+
+.comment-post-form .form-submit {
+    text-align: right;
+    width: 100;
+    min-height: 30px
+}
+
+#combunity-comments-submit {
+    float: right;
+    background-color: #dd3416;
+    margin-top: 10px
+}
+
+.comment-form .form-submit {
+    height: 40px;
+    display: block
+}
+
+.children {
+    margin-left: 25px
+}
+
+.combunity-forum-avatar {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.author-info,
+.author-vcard {
+    position: relative;
+    display: inline-block
+}
+
+.author-vcard {
+    height: 30px;
+    width: 30px;
+    top: 10px
+}
+
+.combunity-comment-markdown img,
+.main-post,
+.width-100 {
+    width: 100%
+}
+
+.author-info {
+    top: -15px
+}
+
+.comment-text div {
+    /*margin: 0;*/
+    /*border-top: 1px #eee solid;*/
+    /*padding-top: 4px;*/
+    /*padding-bottom: px*/
+}
+
+.search-pagination-container,
+.userpage-comments-pagination {
+    background: rgba(255, 255, 255, .6);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0 0 3px 3px
+}
+
+.combunity-userpost-comment {
+    color: #7f8c8d
+}
+
+.search-pagination-container {
+    text-align: center
+}
+
+.large-font {
+    font-size: 18px
+}
+
+.submit-page {
+    background-color: #fff;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15)
+}
+
+.form-control {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding-left: 5px
+}
+
+.float-right {
+    float: right
+}
+
+.user-karma {
+    border: 2px solid;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 4px;
+    margin-left: 4px
+}
+
+.js-clickable-menu-container {
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 4px;
+    background: #fff;
+    padding: 10px;
+    overflow: hidden;
+    min-width: 180px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .35);
+    z-index: 10
+}
+
+.js-clickable-menu-container ul {
+    list-style-type: none;
+    text-align: left
+}
+
+.account-link-username:active,
+.account-link-username:hover,
+.account-link-username:link,
+.account-link-username:visited {
+    color: #fff;
+    text-decoration: none
+}
+
+.border-top-special {
+    border-top: 1px dotted #a4a9ab;
+    padding-top: 2px
+}
+
+.border-top {
+    border-top: 1px solid #a4a9ab;
+    padding-top: 2px
+}
+
+.border-bottom {
+    border-bottom: 1px solid #a4a9ab;
+    padding-bottom: 3px
+}
+
+.user-menu-item a i {
+    margin-right: 5px
+}
+
+.user-menu-item {
+    margin-top: 5px
+}
+
+.profile-avatar {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0, 0, 0, .2)
+}
+
+.combunity-forum-post-category,
+.combunity-forum-post-page-post-single,
+.page-numbers {
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15)
+}
+
+.user-page-author-info div {
+    display: inline-block
+}
+
+.user-page-author-info .title-container {
+    position: relative;
+    top: -3px
+}
+
+.font-size-15 {
+    font-size: 15px!important
+}
+
+.tag-user-page {
+    display: inline-block;
+    font-size: 12px;
+    background: #eee;
+    padding: 3px 5px;
+    border-radius: 3px;
+    position: relative;
+    top: -2px;
+    margin-top: 4px
+}
+
+.tag-user-page:hover,
+.tag-user-page:hover a {
+    color: #fff
+}
+
+.grayish-color {
+    color: #4E555D!important
+}
+
+.site-rules {
+    margin-top: 5px;
+    margin-bottom: 15px
+}
+
+.footer-container-row,
+.main-post,
+.margin-top-20 {
+    margin-top: 20px
+}
+
+.main-post {
+    border-radius: 3px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    background: #fff;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px
+}
+
+.combunity-forum-post-category {
+    background-color: #fff
+}
+
+.combunity-forum-font-small {
+    font-size: 11px
+}
+
+.combunity-forum-post-row {
+    background-color: #fff;
+    border-bottom: 1px solid #EEE
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.combunity-forum-post-row-post-title-container {
+    padding-top: 10px!important;
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+.combunity-forum-post-row-column {
+    border-right: 1px solid #EEE;
+    padding-top: 20px
+}
+
+.combunity-forum-post-ul-li {
+    display: inline
+}
+
+.combunity-forum-categories-post-title {
+    border-bottom: 1px solid #EEE;
+    padding-left: 10px;
+    padding-bottom: 5px
+}
+
+.combunity-forum-categories-post-description {
+    padding-left: 10px;
+    margin-bottom: 30px
+}
+
+.combunity-forum-categories-post-author-section {
+    padding-left: 10px;
+    position: absolute;
+    bottom: 5px;
+    margin-top: 10px
+}
+
+.comments-navigation,
+.dots,
+.page-numbers {
+    margin-top: 20px
+}
+
+.combunity-forum-post-icon {
+    margin-right: 5px;
+    position: relative;
+    top: -1px
+}
+
+.combunity-forum-categories-top-posts-row {
+    border-top: 1px dotted #EEE
+}
+
+.combunity-forum-icon {
+    margin-right: 5px
+}
+
+.combunity-forum-icon-right {
+    margin-left: 5px
+}
+
+.combunity-forum-table-title {
+    padding-top: 10px
+}
+
+.combunity-forums-post-first {
+    border-radius: 3px
+}
+
+.combunity-forum-table-row-background {
+    background-color: #fff;
+    overflow: hidden
+}
+
+.combunity-forum-table-row-heading {
+    border-bottom: 2px solid #EEE
+}
+
+.combunity-forum-table-row {
+    border-bottom: 1px solid #EEE
+}
+
+.combunity-forum-post-page-post-single {
+    background-color: #fff;
+    overflow: hidden
+}
+
+.combunity-forum-post-info-box {
+    padding-bottom: 20px
+}
+
+.page-numbers {
+    background-color: #fff;
+    overflow: hidden;
+    padding: 10px
+}
+
+.dots {
+    border-radius: none!important;
+    box-shadow: none!important;
+    background-color: transparent!important;
+    padding: 0!important
+}
+
+.current {
+    background-color: #DD3416;
+    color: #fff
+}
+
+.combunity-subbox,
+.combunity-subbox-userpage-comments {
+    bottom: 0;
+    margin-bottom: 5px;
+    color: #b3c1c6;
+    font-size: 13px;
+    line-height: 1.5
+}
+
+.combunity-subbox-userpage-comments {
+    margin-top: 5px
+}
+
+.combunity-subbox {
+    position: absolute
+}
+
+.combunity-forum-round {
+    border-radius: 3px
+}
+
+.combunity-forum-postoptions {
+    color: #a4a9ab;
+    margin-right: 5px
+}
+
+.combunity-forum-icon-color,
+.combunity-forum-post-author-post-info a {
+    color: #999
+}
+
+.combunity-forum-no-posts-found {
+    padding-bottom: 10px;
+    text-align: center
+}
+
+.combunity-padding-right-small {
+    padding-right: 5px
+}
+
+.combunity-forum-userpage-comment-title {
+    font-size: 120%
+}
+
+.combunity-forum-userpage-commentbody {
+    font-size: 80%;
+    text-decoration: italic
+}
+
+.combunity-forum-userpage-comments-container {
+    margin-top: 0!important
+}
+
+.combunity-forum-postpage-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 36px;
+    font-size: 18px;
+    line-height: 36px
+}
+
+.combunity-forum-avatarcontainer {
+    background-color: red;
+    width: 40px
+}
+
+.combunity-forum-post-container {
+    margin-left: 40px;
+    background-color: #00f
+}
+
+.combunity-forum-post-avatar-container {
+    width: 50px
+}
+
+.combunity-forum-post-title {
+    font-size: 15px
+}
+
+.combunity-forum-post-info-container {
+    position: relative;
+    top: -5px
+}
+
+.combunity-forum-post-author-post-info {
+    font-size: 90%;
+    color: #999;
+}
+
+.combunity-forum-post-author-post-info a:hover{
+    color: #DD3416;
+}
+
+.combunity-forum-post-author-post-info strong a {
+    text-decoration: underline;
+}
+
+.combunity-forum-post-author-post-info strong a:hover {
+    text-decoration: underline;
+    color: #DD3416;
+}
+
+.combunity-forum-post-author-post-info a {
+    text-decoration: underline;
+}
+
+.combunity-forum-post-post-options {
+    height: 10px;
+    margin-top: 10px;
+    margin-left: 50px
+}
+
+.combunity-forum-post-ul {
+    font-size: 80%
+}
+
+.combunity-forum-icon-2 {
+    margin-right: 3px
+}
+
+.combunity-forum-post-icon-block {
+    margin-right: 10px;
+    font-size: 15px;
+    display: inline-block
+}
+
+.combunity-forum-post-single-row {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.combunity-forum-table-row-background:hover {
+    background-color: #E6E6E6;
+}
+
+.combunity-forum-categories-widget li {
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.combunity-forum-tag,
+.combunity-forums-userpage-timeago {
+    font-size: 12px;
+    padding: 1px 5px 2px;
+    display: inline-block;
+    position: relative
+}
+
+.combunity-forum-categories-widget li .post-count-container {
+    float: right
+}
+
+.combunity-forum-categories-widget li .post-count-container .post-count {
+    text-align: right
+}
+
+.combunity-forum-search {
+    margin-right: 5px
+}
+
+.combunity-forum-search .search-field {
+    width: 100%;
+    border: 2px solid #524444;
+    border-radius: 3px;
+    margin-bottom: 20px
+}
+
+.combunity-forum-buttons {
+    margin-bottom: 20px
+}
+
+.combunity-widget-button {
+    width: 100%
+}
+
+.combunity-forum-buttons a {
+    color: #fff!important
+}
+
+.combunity-forum-tag {
+    background: #eee;
+    border-radius: 3px;
+    top: 0;
+    color: #a6a6a6
+}
+
+.combunity-forums-userpage-timeago {
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    top: -1px
+}
+
+.combunity-widget-title {
+    font-size: 18px
+}
+
+.combunity-forums-social-widget-title {
+    margin-bottom: 10px
+}
+
+.combunity-header-link-color {
+    color: #fff
+}
+
+.combunity-forum-social-buttons li {
+    list-style: none;
+    display: inline
+}
+
+.combunity-userpage-links-li {
+    margin-left: 5px
+}
+
+.combunity-active-subs-list-element {
+    margin-bottom: 5px
+}
+
+.combunity-forum-social-buttons li span {
+    margin-right: 10px
+}
+
+.combunity-forum-social-buttons li span a i {
+    margin-right: 4px
+}
+
+.combunity-row {
+    display: table;
+    table-layout: fixed;
+    width: 100%
+}
+
+.combunity-widget-sub-color {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border: 1px solid #d5d2d2;
+    border-radius: 5px;
+    position: relative;
+    top: 2px
+}
+
+.combunity-col {
+    display: table-cell
+}
+
+.combunity-widget {
+    background: rgba(255, 255, 255, .6);
+    padding: 15px;
+    border-radius: 3px;
+    margin-bottom: 10px
+}
+
+.combunity-widget-icon {
+    margin-right: 5px
+}
+
+.combunity-posts-stats-line {
+    border-bottom: 1px dotted #b3b3b3;
+    margin-bottom: 5px
+}
+
+.user-notifications {
+    border: 2px solid;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 4px;
+    margin-left: 4px
+}
+
+.combunity-widget-content {
+    margin-top: 5px
+}
+
+.combunity-forum-post-tag-text {
+    margin-left: 2px
+}
+
+.combunity-messages-user-actions {
+    width: 90%
+}
+
+.combunity-empty-content-div {
+    text-align: center;
+    background: rgba(255, 255, 255, .6);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 3px
+}
+
+.combunity-message-send-form {
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+    background-color: #fff;
+    overflow: hidden;
+    padding: 20px
+}
+.comment-footer-link{
+	margin-left:10px;
+}
+
+/*End Body CSS*/
+.checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #7ac142;
+  fill: none;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  margin: 10% auto;
+  box-shadow: inset 0px 0px 0px #7ac142;
+  animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+}
+
+.checkmark__check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes scale {
+  0%, 100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px #7ac142;
+  }
+}
+
+.comment-text ul,ol{
+    padding-left: 20px;
+}
+
+.comment-text a{
+    color:#DD3416;
+}
+
+#submitpostform .submissionform label{
+    display: block;
+}
+
+#submitpostform .submissionform input[name="post_title"]{
+    display: block;
+    width:100%;
+}
+
+.submitthread label{
+    display: block;
+}
+
+.submitthread input[name="post_title"]{
+    display: block;
+    width:100%;
+}
+
+.combunity-voting-bar-vote-comment {
+    cursor: pointer;
+    margin: auto;
+    height: 13px;
+}
+
+.combunity-vote-up {
+    background: url('assets/sprites.png') no-repeat -5px -27px;
+    width: 14px;
+    height: 13px;
+}
+
+.combunity-vote-up-highlight {
+    background: url('assets/sprites.png') no-repeat -29px -27px;
+    width: 14px;
+    height: 13px;
+}
+
+.combunity-vote-down {
+    background: url('assets/sprites.png') no-repeat -53px -27px;
+    width: 14px;
+    height: 13px;
+    position: relative;
+    top: -10px;
+}
+
+.combunity-vote-down-highlight {
+    background: url('assets/sprites.png') no-repeat -77px -27px;
+    width: 14px;
+    height: 13px;
+}
+
+.combunity-vertical-spacer {
+    height: 12px;
+}
+
+.combunity-vote-bar-container {
+    width: 100%;
+    height: 13px;
+    text-align: center;
+}
+
+.combunity-voting-bar {
+    margin-top: 5px;
+}
+
+.comments-area ul {
+    list-style: none;
+}
+
+.combunity-comment-actions-bar span{
+    margin-right:5px;
+
+}
+
+.combunity-comment-actions-bar span a{
+    color: #b3b3b3;;
+}
+
+#commentform #submit{
+    margin-top:5px;
+    float:right;
+}
+
+.combunity-comment-form .comment-form-comment label[for="comment"]  {
+    display: none !important;
+}
+
+.combunity-ajax-btn-container{
+    display: block;
+    width:100%;
+    height:40px;
+    margin-top:5px;
+}
+
+.combunity-ajax-btn-container button{
+    display: inline-block;
+}
+
+.combunity-ajax-cancel{
+    float:left;
+}
+
+.combunity-ajax-save{
+    float:right;
+}
+
+.combunity-login-modal input[name="log"]{
+    display: block;
+    width:100%;
+}
+.combunity-login-modal input[name="pwd"]{
+    display: block;
+    width:100%;
+}
+
+.combunity-login-modal #wp-submit{
+    float:right;
+}
+
+.combunity-comment-text-inner{
+    margin: 0;
+    border-top: 1px #eee solid;
+    padding-top: 4px;
+}
+
+.combunity-comment-extendible{
+    cursor:pointer;
+}
+
+.newpost{
+    cursor:pointer;
+}
+
+.combunity-pagination{
+    margin-top:15px;
+}
+
+.comment-holder{
+    overflow: auto;
+}
+
+.view-thread-btn{
+    float:right; 
+    background-color:white; 
+    height:25px; margin-bottom:10px; 
+    padding:3px 4px; padding-bottom:4px; 
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15); 
+    border-radius: 0 3px 3px;
+    cursor:pointer;
+}
+
+.view-thread-btn:hover{
+    background: #DD3416;
+    color: white;
+}
+
+/*Widgets*/
+
+.combunity-forum-sidebar > li{
+    background: rgba(255,255,255,.6);
+    padding: 15px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.combunity-forum-sidebar > li #wp-calendar{
+    width:100%;
+}
+
+.combunity-forum-sidebar .widget_recent_entries ul{
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+.combunity-forum-sidebar .widget_categories ul{
+    margin-left:20px;
+    list-style-type: square;
+}
+
+.combunity-forum-sidebar  .widget_meta ul{
+    margin-left:20px;
+    list-style-type: square;
+}
+
+.combunity-forum-sidebar .widget_rss ul{
+    margin-left:20px;
+    list-style-type: square;
+}
+
+.combunity-forum-sidebar .widget_pages ul{
+    margin-left:20px; 
+}
+
+.combunity-forum-sidebar .widget_pages ul .page_item{
+    /*margin-left:20px; */
+}
+
+
+
+.combunity-forum-sidebar .widgettitle{
+    font-size: 19px;
+}
+
+#respond{
+ margin-bottom:20px;
+}
+
+.post-body ul {
+	margin-left:20px;
+}
+
+.post-body {
+    word-wrap: break-word;
+}
+
+/*Combunity2 Validation errors*/
+
+.combunity-validation-error{
+    color: #DD3416;
+}
+
+/*Combunity2 End Validation*/
+
+/*Combunity2 FP*/
+.combunity-front-page > article:nth-of-type(1) .cpost{
+    padding-top:20px;
+}
+.combunity-front-page article:last-child .cpost .combunity-forum-post-single-row{
+    border-bottom: 0px !important;
+}      
+/*Combunity2 FP*/
+
+
+/*Combunity2 404 */
+.combunity-404-page h1 {
+    font-size: 160px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.combunity-404-page h2{
+    margin-top: 0;
+    max-width: 700px;
+    font-size: 30px;
+    width: 90%;
+}
+/*Combunity2 End 404*/
+
+/*Combunity2 Utils*/
+
+.combunity-special-page-title{
+    padding-top:10px;
+    padding-left:30px;
+    padding-bottom:10px;
+}
+
+.combunity-box-simple{
+    background: #FFF;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+}
+
+.combunity-box{
+    background: #FFF;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+    padding:0px 20px 20px 20px;
+    margin-bottom:20px;
+}
+
+.combunity-user-posted-image{
+    float:left;
+    padding:8px;
+}
+
+.combunity-thread-actions span a{
+    color: #b3b3b3;
+}
+
+.page-numbers{
+    margin-right:3px;
+}
+
+.post-container{
+    overflow: auto;
+}
+/*Combunity2 Utils End*/
+/*COmbunity2 Comments*/
+.comment-respond{
+    margin-top:10px;
+}
+.comment-text{
+    word-wrap:break-word;
+}
+.comment-respond input{
+    display: block;
+}
+
+.comment-respond input[name="author"]{
+    display: block;
+    background-image: none !important;
+}
+/*Combunity2 Comments End*/
+
+/*Combunity2 Forms*/
+.combunity-submit-thread-rules{
+    height: 100px;
+    overflow: auto;
+    border: 1px solid gray;
+}
+/*Combunity2 Forms*/
+/*Combunity2 Login*/
+input[name="user_login"],input[name="user_password"], input[name="user_email"],
+input[name="signup_username"],input[name="signup_password"], input[name="signup_email"]
+{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#combunity-login-form input[type="submit"]{
+    background: #DD3416;
+    float:right;
+}
+
+#combunity-signup-form input[type="submit"]{
+    background: #DD3416;
+}
+
+/*Combunity2 Login End*/
+
+.widget_recent_replies img{
+    width: 22px ;
+    height:22px ;
+}
+
+.post-body{
+    margin-bottom:20px;
+}
+
+.footer{
+    margin-top:20px;
+}
+
+.single-post .combunity-forum-table-row-background {
+    border: 1px solid #d9d9d9;
+}
+
